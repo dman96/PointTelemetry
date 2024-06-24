@@ -22,6 +22,7 @@ public:
     target_y_ = target_y;
   }
 
+  //Thread functions
   void movePoint();
   
 private:

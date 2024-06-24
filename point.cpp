@@ -8,5 +8,5 @@ void Point::movePoint()
     if (target_y_ < curr_y_)
         curr_y_ -= velocity_;
     else if (target_y_ > curr_y_)
-        curr_y += velocity_;
+        curr_y_ += velocity_;
 }
